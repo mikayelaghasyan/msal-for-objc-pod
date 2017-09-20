@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/shuurai/msal-for-objc-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '8.0'
 
   s.prefix_header_file = 'MSAL/AzureSource/MSAL/src/MSAL.pch'
   s.public_header_files = 'MSAL/AzureSource/MSAL/src/public/MSALResult.h', 'MSAL/AzureSource/MSAL/src/public/MSALUIBehavior.h', 'MSAL/AzureSource/MSAL/src/public/MSALUser.h', 'MSAL/AzureSource/MSAL/src/public/MSALTelemetry.h', 'MSAL/AzureSource/MSAL/src/public/MSALError.h', 'MSAL/AzureSource/MSAL/src/public/MSALPublicClientApplication.h', 'MSAL/AzureSource/MSAL/src/public/MSAL.h', 'MSAL/AzureSource/MSAL/src/public/MSALLogger.h', 'MSAL/Classes/*.h'
